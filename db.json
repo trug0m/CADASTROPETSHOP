@@ -1,0 +1,43 @@
+{
+  "usuarios": [
+    {
+      "id": "dd2e",
+      "nome": "FRANCISCO RAI NOBRE BARROS",
+      "email": "rai.nobreb@gmail.com",
+      "cep": "60430-540",
+      "rua": "Rua Porfírio Sampaio",
+      "numero": "1805",
+      "bairro": "Rodolfo Teófilo",
+      "cidade": "Fortaleza",
+      "estado": "Ceará",
+      "racaPet": "pinscher",
+      "nomePet": "caco"
+    },
+    {
+      "id": "2345",
+      "nome": "FRANCISCO RAI NOBRE BARROS",
+      "email": "pcp@guerrametais.com.br",
+      "cep": "60430-540",
+      "rua": "Rua Porfírio Sampaio",
+      "numero": "1805",
+      "bairro": "Rodolfo Teófilo",
+      "cidade": "Fortaleza",
+      "estado": "Ceará",
+      "racaPet": "pinscher",
+      "nomePet": "ibra"
+    },
+    {
+      "id": "dfa2",
+      "nome": "FRANCISCO RAI NOBRE BARROS",
+      "email": "aldalima2202@gmail.com",
+      "cep": "60430-540",
+      "rua": "Rua Porfírio Sampaio",
+      "numero": "1805",
+      "bairro": "Rodolfo Teófilo",
+      "cidade": "Fortaleza",
+      "estado": "Ceará",
+      "racaPet": "pinscher",
+      "nomePet": "caco"
+    }
+  ]
+}

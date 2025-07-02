@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
+    <title>Cadastro de Pet</title>
+
+</head>
+
+<body>
+    <div class="form-container">
+        <h2 id="title">Cadastro de Pet</h2>
+        <form id="petForm">
+            <div class="form-group">
+                <label for="nome">Nome</label>
+                <input type="text" id="nome" name="nome" required />
+            </div>
+
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required />
+            </div>
+
+            <div class="form-group">
+                <label for="cep">CEP</label>
+                <input type="text" id="cep" name="cep" required maxlength="9" />
+            </div>
+
+            <div class="form-group">
+                <label for="rua">Rua</label>
+                <input type="text" id="rua" name="rua" readonly />
+            </div>
+
+            <div class="form-group">
+                <label for="numero">Número</label>
+                <input type="text" id="numero" name="numero" required />
+            </div>
+
+            <div class="form-group">
+                <label for="bairro">Bairro</label>
+                <input type="text" id="bairro" name="bairro" readonly />
+            </div>
+
+            <div class="form-group">
+                <label for="cidade">Cidade</label>
+                <input type="text" id="cidade" name="cidade" readonly />
+            </div>
+
+            <div class="form-group">
+                <label for="estado">Estado</label>
+                <input type="text" id="estado" name="estado" readonly />
+            </div>
+
+            <div class="form-group">
+                <label for="raca">Raça do Pet</label>
+                <input type="text" id="racaPet" name="raca" required />
+            </div>
+
+            <div class="form-group">
+                <label for="nomePet">Nome do Pet</label>
+                <input type="text" id="nomePet" name="nomePet" required />
+            </div>
+
+            <div class="form-group full-width">
+                <button type="submit" id="cadastrar">Cadastrar</button>
+            </div>
+            <a class="full-width btn-redirect" href="listaUsuarios.html">Buscar Usuarios</a>
+        </form>
+    </div>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
